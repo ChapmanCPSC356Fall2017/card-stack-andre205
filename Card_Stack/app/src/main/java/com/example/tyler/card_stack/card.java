@@ -1,8 +1,30 @@
 package com.example.tyler.card_stack;
 
-/**
- * Created by tyler on 10/2/17.
- */
-
 public class card {
+
+    public enum suit {
+        HEARTS, DIAMONDS, SPADES, CLUBS
+    }
+
+    public String cardValue;
+    public suit cardSuit;
+
+    //No default constructor given
+
+    public card(String v, suit s)
+    {
+        this.cardValue = v;
+        this.cardSuit = s;
+    }
+
+    public String getCardValue()
+    {
+        return cardValue;
+    }
+
+    public suit getSuit()
+    {
+        return cardSuit;
+    }
+
 }
