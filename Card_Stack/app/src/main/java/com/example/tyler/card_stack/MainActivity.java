@@ -110,11 +110,7 @@ public class MainActivity extends AppCompatActivity {
             tv_lower.setTextColor(Color.RED);
             tv_upper.setTextColor(Color.RED);
         }
-
-
-
     }
-
 
     public void screenClick(View view) {
 
@@ -127,6 +123,5 @@ public class MainActivity extends AppCompatActivity {
         {
             finish();
         }
-
     }
 }
