@@ -61,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
         this.cardStack.push(new card("K", card.suit.DIAMONDS));
         this.cardStack.push(new card("K", card.suit.SPADES));
 
-        this.cardStack.push(new card("A", card.suit.HEARTS));
+        //Ace of hearts is first card (from layout creation)
+        //this.cardStack.push(new card("A", card.suit.HEARTS));
         this.cardStack.push(new card("A", card.suit.CLUBS));
         this.cardStack.push(new card("A", card.suit.DIAMONDS));
         this.cardStack.push(new card("A", card.suit.SPADES));

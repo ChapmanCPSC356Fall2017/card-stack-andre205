@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="onScreenClick">
+    android:onClick="onScreenClick"
+    >
 
     <RelativeLayout
         android:id="@+id/rl_upperCorner"
@@ -13,7 +14,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp">
+        android:layout_marginTop="15dp"
+        >
 
         <TextView
             android:id="@+id/tv_upperNumber"
@@ -22,7 +24,8 @@
             android:textSize="50sp"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/holo_red_dark"
-            android:text="A"/>
+            android:text="A"
+            />
 
         <ImageView
             android:id="@+id/iv_upperSuit"
@@ -30,7 +33,8 @@
             android:layout_height="30dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/tv_upperNumber"
-            android:src="@drawable/heart"/>
+            android:src="@drawable/heart"
+            />
 
     </RelativeLayout>
 
@@ -39,7 +43,8 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/heart"/>
+        android:src="@drawable/heart"
+        />
 
     <RelativeLayout
         android:id="@+id/rl_lowerCorner"
@@ -48,7 +53,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        >
 
         <ImageView
             android:id="@+id/iv_lowerSuit"
@@ -56,7 +62,8 @@
             android:layout_height="30dp"
             android:rotation="180"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/heart"/>
+            android:src="@drawable/heart"
+            />
 
         <TextView
             android:id="@+id/tv_lowerNumber"
@@ -66,7 +73,8 @@
             android:rotation="180"
             android:layout_below="@+id/iv_lowerSuit"
             android:textColor="@android:color/holo_red_dark"
-            android:text="A"/>
+            android:text="A"
+            />
 
     </RelativeLayout>
 

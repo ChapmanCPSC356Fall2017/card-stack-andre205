@@ -9,8 +9,6 @@ public class card {
     public String cardValue;
     public suit cardSuit;
 
-    //No default constructor given
-
     public card(String v, suit s)
     {
         this.cardValue = v;
