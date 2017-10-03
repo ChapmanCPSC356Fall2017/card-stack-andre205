@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91739c1d-6024-4e35-8a11-6e5a487898a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card_Stack/app/src/main/java/com/example/tyler/card_stack/MainActivity.java" afterPath="$PROJECT_DIR$/Card_Stack/app/src/main/java/com/example/tyler/card_stack/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card_Stack/app/src/main/java/com/example/tyler/card_stack/card.java" afterPath="$PROJECT_DIR$/Card_Stack/app/src/main/java/com/example/tyler/card_stack/card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/framelayout.xml" afterPath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/framelayout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/relativelayout.xml" afterPath="$PROJECT_DIR$/Card_Stack/app/src/main/res/layout/relativelayout.xml" />
     </list>
     <ignored path="card-stack-andre205.iws" />

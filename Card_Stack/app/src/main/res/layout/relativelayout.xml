@@ -8,7 +8,7 @@
     >
 
     <RelativeLayout
-        android:id="@+id/rl_upperCorner"
+        android:id="@+id/rl_topleft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -18,7 +18,7 @@
         >
 
         <TextView
-            android:id="@+id/tv_upperNumber"
+            android:id="@+id/tv_topleft"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
@@ -28,18 +28,18 @@
             />
 
         <ImageView
-            android:id="@+id/iv_upperSuit"
+            android:id="@+id/iv_topleft"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/tv_upperNumber"
+            android:layout_below="@+id/tv_topleft"
             android:src="@drawable/heart"
             />
 
     </RelativeLayout>
 
     <ImageView
-        android:id="@+id/iv_centerSuit"
+        android:id="@+id/iv_center"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_centerInParent="true"
@@ -47,7 +47,7 @@
         />
 
     <RelativeLayout
-        android:id="@+id/rl_lowerCorner"
+        android:id="@+id/rl_bottomright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -57,7 +57,7 @@
         >
 
         <ImageView
-            android:id="@+id/iv_lowerSuit"
+            android:id="@+id/iv_bottomright"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:rotation="180"
@@ -66,12 +66,12 @@
             />
 
         <TextView
-            android:id="@+id/tv_lowerNumber"
+            android:id="@+id/tv_bottomright"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="50sp"
             android:rotation="180"
-            android:layout_below="@+id/iv_lowerSuit"
+            android:layout_below="@+id/iv_bottomright"
             android:textColor="@android:color/holo_red_dark"
             android:text="A"
             />
